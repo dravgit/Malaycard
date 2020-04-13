@@ -18,24 +18,12 @@
         />
 
     <Button
+        android:layout_margin="30dp"
         android:id="@+id/btn_camera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CAMERA"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_ocr"
-        app:layout_constraintTop_toBottomOf="@+id/iVcapture"
-        app:layout_constraintBottom_toBottomOf="parent"
-    />
-
-    <Button
-        android:id="@+id/btn_ocr"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="OCR"
-        app:layout_constraintStart_toEndOf="@+id/btn_camera"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iVcapture"
         app:layout_constraintBottom_toBottomOf="parent"
         />
 
